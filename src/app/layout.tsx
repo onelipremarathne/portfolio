@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Work_Sans } from "next/font/google";
 import "./globals.css";
 
-const workSans = Work_Sans();
+const workSans = Work_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "My Portfolio",
@@ -16,11 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${workSans.className} antialiased`}
-      >
-        {children}
-      </body>
+      <body className={`${workSans.className} antialiased`}>{children}</body>
     </html>
   );
 }
