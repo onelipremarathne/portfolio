@@ -15,7 +15,7 @@ const Contact = () => {
         Contact me
       </div>
       <div className="relative inline-block max-w-sm sm:max-w-sm md:max-w-md">
-        <div className="bg-white/20 h-12 sm:h-14 lg:h-16 w-full p-3 sm:p-4 text-purple-800 text-lg sm:text-xl lg:text-2xl rounded-md transition-all duration-300 hover:-translate-y-1 pr-12 sm:pr-14 lg:pr-16 cursor-pointer">
+        <div className="bg-white/20 h-12 sm:h-14 lg:h-16 w-full p-3 sm:p-4 text-purple-800 text-lg sm:text-xl lg:text-2xl rounded-2xl transition-all duration-300 hover:-translate-y-1 pr-12 sm:pr-14 lg:pr-16 cursor-pointer">
           oneli.premarathne@gmail.com
         </div>
         <svg

@@ -84,7 +84,7 @@ const Projects = () => {
         {repositories.map((item, index) => (
           <div
             key={index}
-            className="group relative mx-auto w-full max-w-sm md:h-md rounded-md cursor-pointer 
+            className="group relative mx-auto w-full max-w-sm md:h-md rounded-2xl cursor-pointer 
                        overflow-hidden bg-white/20 px-4 sm:px-6 pt-6 sm:pt-10 pb-6 sm:pb-8 
                        ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1"
           >
