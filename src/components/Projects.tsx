@@ -85,20 +85,20 @@ const Projects = () => {
           <div
             key={index}
             className="group relative mx-auto w-full max-w-sm md:h-md rounded-md cursor-pointer 
-                       overflow-hidden bg-white/50 px-4 sm:px-6 pt-6 sm:pt-10 pb-6 sm:pb-8 
+                       overflow-hidden bg-white/20 px-4 sm:px-6 pt-6 sm:pt-10 pb-6 sm:pb-8 
                        ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1"
           >
             <div className="relative mx-auto max-w-md h-full flex flex-col">
               <div
                 className="text-lg sm:text-2xl lg:text-3xl 
-                              font-bold uppercase text-right"
+                              font-bold uppercase text-right text-rose-950"
               >
                 {item.name}
               </div>
               <div
                 className="space-y-4 sm:space-y-6 pt-3 sm:pt-5 leading-6 sm:leading-7 
                               text-base sm:text-lg lg:text-xl transition-all duration-300 
-                              flex-grow"
+                              flex-grow text-rose-900"
               >
                 <p>{item.description}</p>
               </div>
@@ -106,7 +106,7 @@ const Projects = () => {
                 <div className="flex items-center justify-between">
                   <a
                     href={item.html_url}
-                    className="text-rose-600 transition-all duration-300"
+                    className="text-rose-800 transition-all duration-300"
                   >
                     Repository link &rarr;
                   </a>
